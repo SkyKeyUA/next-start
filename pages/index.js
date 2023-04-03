@@ -19,6 +19,7 @@ export default function Home() {
         <h2 className={styles.title}>
           Read <Link href="/authors">this page! (Authors)</Link>
         </h2>
+        <img src="/images/profile.jpg" alt="Your name" />
         <p className={styles.description}>
           Get started by editing <code>pages/index.js</code>
         </p>
