@@ -40,6 +40,9 @@ export default function Home({ allPostsData }) {
           <div>
             Read <Link href="/authors">this page! (Authors)</Link>
           </div>
+          <div>
+            Read <Link href="/users">this page! (Users)</Link>
+          </div>
         </div>
       </section>
       {/* Keep the existing code here */}
