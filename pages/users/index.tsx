@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Layout from '../../components/layout';
 
 /** @format */
-export default function Users() {
+const Users = () => {
   return (
     <Layout>
       <h1>Users</h1>
@@ -13,4 +13,6 @@ export default function Users() {
       </h2>
     </Layout>
   );
-}
+};
+
+export default Users;

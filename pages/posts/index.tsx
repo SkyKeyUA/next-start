@@ -4,7 +4,7 @@ import Script from 'next/script';
 import Link from 'next/link';
 import Layout from '../../components/layout';
 
-export default function FirstPost() {
+const FirstPost = () => {
   return (
     <Layout>
       <Head>
@@ -21,4 +21,6 @@ export default function FirstPost() {
       </h2>
     </Layout>
   );
-}
+};
+
+export default FirstPost;
